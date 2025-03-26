@@ -1,0 +1,8 @@
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      MY_VARIABLE: my_value
+    steps:
+      - name: Print variable
+        run: echo $MY_VARIABLE
